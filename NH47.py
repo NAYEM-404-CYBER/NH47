@@ -271,7 +271,7 @@ def rcrack(uid,pwx,tl):
 			else:
 				continue
 		loop+=1
-		sys.stdout.write(f"\r\x1b[1;32m[ C R A C K ]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}] ")
+		sys.stdout.write(f"\r\x1b[1;32m[NH47]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}] ")
 		sys.stdout.flush()
 	except:
 		pass
@@ -360,7 +360,7 @@ def rcrack(uid,pwx,tl):
 			else:
 				continue
 		loop+=1
-		sys.stdout.write(f"\r \x1b[1;32m[ C R A C K ]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}]  ")
+		sys.stdout.write(f"\r \x1b[1;32m[NH47]\x1b[1;32m [{loop}|{tl}] \x1b[1;32m[Ok][{len(oks)}] [Cp][{len(cps)}]  ")
 		sys.stdout.flush()
 	except:
 		pass
